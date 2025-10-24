@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Taeyai_fly.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="TaeYai fly 0000" x="3503" y="2433" width="700" height="806" frameX="2" frameY="-12" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0001" x="3503" y="2433" width="700" height="806" frameX="2" frameY="-12" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0002" x="3503" y="0" width="700" height="813" frameX="2" frameY="-2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0003" x="3503" y="0" width="700" height="813" frameX="2" frameY="-2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0004" x="1401" y="1668" width="701" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0005" x="1401" y="1668" width="701" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0006" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0007" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0008" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0009" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0010" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0011" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0012" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0013" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly 0014" x="2803" y="817" width="700" height="817" frameX="2" frameY="2" frameWidth="697" frameHeight="816"/>
+	<SubTexture name="TaeYai fly I do0000" x="2803" y="1634" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0001" x="2803" y="1634" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0002" x="2102" y="1668" width="701" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0003" x="2102" y="1668" width="701" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0004" x="2102" y="1668" width="701" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0005" x="2100" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0006" x="2100" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0007" x="1400" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0008" x="1400" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0009" x="1400" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0010" x="1400" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0011" x="1400" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0012" x="0" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0013" x="0" y="2499" width="700" height="817" frameX="2" frameY="-32" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0014" x="2803" y="0" width="700" height="817" frameX="2" frameY="-36" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0015" x="2803" y="0" width="700" height="817" frameX="2" frameY="-36" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0016" x="700" y="2499" width="700" height="817" frameX="2" frameY="-33" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0017" x="0" y="836" width="700" height="832" frameX="2" frameY="-4" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0018" x="0" y="836" width="700" height="832" frameX="2" frameY="-4" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0019" x="2103" y="0" width="700" height="831" frameX="2" frameY="-1" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0020" x="701" y="0" width="701" height="831" frameX="2" frameY="0" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0021" x="0" y="1668" width="700" height="831" frameX="2" frameY="2" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0022" x="0" y="1668" width="700" height="831" frameX="2" frameY="2" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0023" x="0" y="1668" width="700" height="831" frameX="2" frameY="2" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0024" x="0" y="1668" width="700" height="831" frameX="2" frameY="2" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0025" x="2103" y="831" width="700" height="831" frameX="2" frameY="0" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0026" x="1402" y="0" width="701" height="831" frameX="2" frameY="-1" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0027" x="1402" y="0" width="701" height="831" frameX="2" frameY="-1" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0028" x="1402" y="4126" width="700" height="753" frameX="2" frameY="-122" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0029" x="3503" y="4126" width="700" height="751" frameX="2" frameY="-125" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0030" x="3503" y="4126" width="700" height="751" frameX="2" frameY="-125" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0031" x="4910" y="2253" width="700" height="751" frameX="2" frameY="-127" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0032" x="4910" y="2253" width="700" height="751" frameX="2" frameY="-127" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0033" x="2803" y="4126" width="700" height="751" frameX="2" frameY="-128" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0034" x="2803" y="4126" width="700" height="751" frameX="2" frameY="-128" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0035" x="4910" y="0" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0036" x="4910" y="751" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0037" x="4910" y="1502" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0038" x="4910" y="1502" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0039" x="2102" y="4126" width="701" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0040" x="2102" y="4126" width="701" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0041" x="4910" y="3004" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0042" x="4910" y="3004" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0043" x="4910" y="3004" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0044" x="4910" y="3004" width="700" height="751" frameX="2" frameY="-129" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0045" x="4203" y="4126" width="700" height="751" frameX="2" frameY="-135" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0046" x="701" y="3316" width="701" height="803" frameX="2" frameY="-29" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0047" x="1402" y="3316" width="700" height="800" frameX="2" frameY="-23" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0048" x="1402" y="3316" width="700" height="800" frameX="2" frameY="-23" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0049" x="2802" y="3316" width="700" height="798" frameX="2" frameY="-22" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0050" x="2802" y="3316" width="700" height="798" frameX="2" frameY="-22" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0051" x="2102" y="3316" width="700" height="799" frameX="2" frameY="-23" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0052" x="2102" y="3316" width="700" height="799" frameX="2" frameY="-23" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0053" x="2102" y="3316" width="700" height="799" frameX="2" frameY="-23" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0054" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0055" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0056" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0057" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0058" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0059" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0060" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0061" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0062" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0063" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0064" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0065" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0066" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0067" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0068" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0069" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0070" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0071" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0072" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0073" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0074" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0075" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0076" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0077" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0078" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0079" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0080" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0081" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly I do0082" x="3502" y="3316" width="700" height="797" frameX="2" frameY="-25" frameWidth="697" frameHeight="884"/>
+	<SubTexture name="TaeYai fly down0000" x="4203" y="3054" width="701" height="760" frameX="2" frameY="-2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0001" x="4203" y="3054" width="701" height="760" frameX="2" frameY="-2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0002" x="0" y="4126" width="701" height="754" frameX="2" frameY="-5" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0003" x="5610" y="0" width="701" height="749" frameX="2" frameY="-3" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0004" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0005" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0006" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0007" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0008" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0009" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0010" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0011" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0012" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0013" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly down0014" x="701" y="4126" width="701" height="753" frameX="2" frameY="2" frameWidth="697" frameHeight="760"/>
+	<SubTexture name="TaeYai fly left0000" x="2800" y="2499" width="700" height="814" frameX="2" frameY="2" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0001" x="2800" y="2499" width="700" height="814" frameX="2" frameY="2" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0002" x="3503" y="813" width="700" height="811" frameX="2" frameY="-5" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0003" x="0" y="3316" width="701" height="810" frameX="2" frameY="-7" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0004" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0005" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0006" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0007" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0008" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0009" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0010" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0011" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0012" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0013" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly left0014" x="3503" y="1624" width="700" height="809" frameX="2" frameY="-8" frameWidth="697" frameHeight="815"/>
+	<SubTexture name="TaeYai fly right0000" x="4203" y="0" width="707" height="767" frameX="2" frameY="2" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0001" x="4203" y="0" width="707" height="767" frameX="2" frameY="2" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0002" x="4203" y="767" width="707" height="765" frameX="2" frameY="0" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0003" x="4203" y="1532" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0004" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0005" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0006" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0007" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0008" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0009" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0010" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0011" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0012" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0013" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly right0014" x="4203" y="2293" width="707" height="761" frameX="2" frameY="-4" frameWidth="703" frameHeight="764"/>
+	<SubTexture name="TaeYai fly up0000" x="0" y="0" width="701" height="836" frameX="2" frameY="2" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0001" x="0" y="0" width="701" height="836" frameX="2" frameY="2" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0002" x="700" y="1668" width="701" height="826" frameX="2" frameY="-16" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0003" x="1401" y="836" width="701" height="830" frameX="2" frameY="-13" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0004" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0005" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0006" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0007" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0008" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0009" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0010" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0011" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0012" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0013" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+	<SubTexture name="TaeYai fly up0014" x="700" y="836" width="701" height="830" frameX="2" frameY="-15" frameWidth="697" frameHeight="843"/>
+</TextureAtlas>
