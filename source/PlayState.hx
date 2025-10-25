@@ -7,9 +7,6 @@ import openfl.ui.Keyboard;
 import openfl.events.KeyboardEvent;
 import Replay.Ana;
 import Replay.Analysis;
-#if cpp
-import webm.WebmPlayer;
-#end
 import flixel.input.keyboard.FlxKey;
 import haxe.Exception;
 import openfl.geom.Matrix;
@@ -3051,7 +3048,12 @@ class PlayState extends MusicBeatState
 					switch(SONG.song.toLowerCase())
                     {
 					    case "wear-a-mask":
-				            LoadingState.loadAndSwitchState(new VideoState("assets/videos/cut1.webm",new PlayState()));
+							var video:VideoHandler = new VideoHandler();
+				        	video.playVideo(Paths.video("cut1"));
+					        video.finishCallback = function()
+				            {
+					           LoadingState.loadAndSwitchState(new PlayState());
+					        }
 						//case 'release':
 						//	LoadingState.loadAndSwitchState(new VideoState("assets/videos/cut3.webm",new PlayState()));
                         default:
@@ -3599,8 +3601,6 @@ class PlayState extends MusicBeatState
 
 			public var fuckingVolume:Float = 1;
 			
-			public static var webmHandler:WebmHandler;
-
 			public var playingDathing = false;
 
 			

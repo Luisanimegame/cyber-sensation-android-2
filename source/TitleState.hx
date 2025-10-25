@@ -175,26 +175,28 @@ class TitleState extends MusicBeatState
 		add(bg);
 
 		new FlxTimer().start(1, function(tmr:FlxTimer)
-			{
-					LoadingState.loadAndSwitchState(new HopeVideoState("assets/videos/again.webm", function() {
-					PlayState.storyPlaylist = ['Last-Hope'];
-					PlayState.isStoryMode = true;
-		
-					PlayState.storyDifficulty = 2;
-		
-					PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + '-hard', StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
-					PlayState.storyWeek = 7;
-					PlayState.campaignScore = 0;
-					//PlayState.cutscene = true;
-					new FlxTimer().start(1, function(tmr:FlxTimer)
-					{
-						LoadingState.loadAndSwitchState(new PlayState());
-						FlxG.save.data.comeagain = false;
-						
-					});
-				}));
+		{
+		    var video:VideoHandler = new VideoHandler();
+		    video.playVideo(Paths.video("again"));
+		    
+		    video.finishCallback = function()
+		    {
+		        PlayState.storyPlaylist = ['Last-Hope'];
+		        PlayState.isStoryMode = true;
+		        PlayState.storyDifficulty = 2;
+		        
+		        var songLowercase = StringTools.replace(PlayState.storyPlaylist[0], " ", "-").toLowerCase();
+		        PlayState.SONG = Song.loadFromJson(songLowercase + '-hard', songLowercase);
+		        PlayState.storyWeek = 7;
+		        PlayState.campaignScore = 0;
+		        
+		        new FlxTimer().start(0.5, function(tmr2:FlxTimer)
+		        {
+		            LoadingState.loadAndSwitchState(new PlayState());
+		            FlxG.save.data.comeagain = false;
+		        });
+		    }
 		});
-			
 
 		FlxG.mouse.visible = false;
 			
