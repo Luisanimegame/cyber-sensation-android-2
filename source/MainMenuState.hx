@@ -16,6 +16,7 @@ import flixel.util.FlxTimer;
 import io.newgrounds.NG;
 import lime.app.Application;
 import sys.io.Process;
+import hxcodec.VideoHandler;
 
 #if windows
 import Discord.DiscordClient;
@@ -140,7 +141,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollow, null, 0.60 * (60 / FlxG.save.data.fpsCap));
 
-		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, gameVer +  (Main.watermarks ? " FNF - " + kadeEngineVer + " Kade Engine gagbo port" : ""), 12);
+		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, gameVer +  (Main.watermarks ? " FNF - " + kadeEngineVer + " Kade Engine" : ""), 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -155,7 +156,7 @@ class MainMenuState extends MusicBeatState
 
 		changeItem();
 		
-		#if mobile addVPad(LEFT_RIGHT, A); #end
+		#if mobile addVPad(LEFT_RIGHT, A_B); #end
 
 		super.create();
 	}
@@ -172,9 +173,25 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
-		
+
 		if (!selectedSomethin)
 		{
+			var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
+
+			if (gamepad != null)
+			{
+				if (gamepad.justPressed.DPAD_UP)
+				{
+					FlxG.sound.play(Paths.sound('scrollMenu'));
+					changeItem(-1);
+				}
+				if (gamepad.justPressed.DPAD_DOWN)
+				{
+					FlxG.sound.play(Paths.sound('scrollMenu'));
+					changeItem(1);
+				}
+			}
+
 			if (controls.LEFT_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -187,7 +204,7 @@ class MainMenuState extends MusicBeatState
 				changeItem(1);
 			}
 
-			if (controls.BACK #if android || FlxG.android.justReleased.BACK #end)
+			if (controls.BACK)
 			{
 				FlxG.switchState(new TitleState());
 			}
@@ -196,7 +213,12 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'credit')
 				{
-					// vamo ver
+					var video:VideoHandler = new VideoHandler();
+		        	video.playVideo(Paths.video("credit"));
+			        video.finishCallback = function()
+		            {
+			           FlxG.switchState(new MainMenuState());
+			        }
 				}
 				else
 				{
@@ -259,6 +281,15 @@ class MainMenuState extends MusicBeatState
 				var taskList = new Process("tasklist", []);
 				var hereyouare = taskList.stdout.readAll().toString().toLowerCase();
 					
+					
+					var checkProgram:Array<String> = ['obs64.exe', 'obs32.exe', 'streamlabs obs.exe', 'streamlabs obs32.exe'];
+					for (i in 0...checkProgram.length)
+					{
+						if (hereyouare.contains(checkProgram[i]))
+						{
+							PlayState.streamer = true;
+						}
+					}
 					taskList.close();
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
