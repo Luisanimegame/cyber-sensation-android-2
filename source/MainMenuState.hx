@@ -16,7 +16,6 @@ import flixel.util.FlxTimer;
 import io.newgrounds.NG;
 import lime.app.Application;
 import sys.io.Process;
-import hxcodec.VideoHandler;
 
 #if windows
 import Discord.DiscordClient;
@@ -211,16 +210,6 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'credit')
-				{
-					var video:VideoHandler = new VideoHandler();
-		        	video.playVideo(Paths.video("credit"));
-			        video.finishCallback = function()
-		            {
-			           FlxG.switchState(new MainMenuState());
-			        }
-				}
-				else
 				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -268,7 +257,6 @@ class MainMenuState extends MusicBeatState
 		switch (daChoice)
 		{
 			case 'story mode':
-				//FlxG.switchState(new StoryMenuState());
 				PlayState.storyPlaylist = ['Open-System', 'Wear-A-Mask'];
 				PlayState.isStoryMode = true;
 	
@@ -280,17 +268,7 @@ class MainMenuState extends MusicBeatState
 				PlayState.cutscene = true;
 				var taskList = new Process("tasklist", []);
 				var hereyouare = taskList.stdout.readAll().toString().toLowerCase();
-					
-					
-					var checkProgram:Array<String> = ['obs64.exe', 'obs32.exe', 'streamlabs obs.exe', 'streamlabs obs32.exe'];
-					for (i in 0...checkProgram.length)
-					{
-						if (hereyouare.contains(checkProgram[i]))
-						{
-							PlayState.streamer = true;
-						}
-					}
-					taskList.close();
+				taskList.close();
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
 					LoadingState.loadAndSwitchState(new PlayState(), true);
