@@ -262,10 +262,6 @@ class MainMenuState extends MusicBeatState
 				PlayState.storyWeek = 7;
 				PlayState.campaignScore = 0;
 				PlayState.cutscene = true;
-				var taskList = new Process("tasklist", []);
-				var hereyouare = taskList.stdout.readAll().toString().toLowerCase();
-					
-					taskList.close();
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
 					LoadingState.loadAndSwitchState(new PlayState(), true);
